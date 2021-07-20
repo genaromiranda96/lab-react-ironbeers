@@ -1,38 +1,52 @@
-.App {
+.bear-logo {
+  height: 45px;
+  filter: brightness(0) invert(1);
+  
+}
+
+.Navbar {
+  background-color: #2dc5fa;
+  height: 55px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  padding: 0px 10px 0px 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  font-weight: 600;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a:hover {
+  text-decoration: underline;
+  font-size: 22px;
+  color: blue;
+  font-weight: 600;
+}
+
+.container-card {
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.container-beer {
+  display: flex;
+  flex-direction: row;
+  border-bottom: #c0c0c0 1px solid;
+  margin-top: 30px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.container-beer img {
+    height: 180px;
+    max-width: 100%;
+    margin: 0px 30px 25px 30px;
+
 }
